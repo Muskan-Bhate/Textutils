@@ -22,7 +22,7 @@ export default function InputBox() {
     const handleOnChange = (event) => {
         setText(event.target.value);
     }
-    const [text,setText] = useState(" ");
+    const [text,setText] = useState("");
     
     return (
         <main>
